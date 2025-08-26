@@ -43,7 +43,7 @@
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
-                "cd_table": "TYPO_STN",
+                "cd_table": "TYPO_CORINE_BIOTOPES",
                 "search_name": "",
                 "limit": "999999"
             }
