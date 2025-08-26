@@ -1,0 +1,32 @@
+{
+    "genre": "F",
+    "label": "Récolte",
+    "label_list": "Récoltes",
+    "display_properties": [
+        "visit_date_min",
+        "observers_txt",
+        "comments"
+    ],
+    "display_list": [
+        "visit_date_min",
+        "observers_txt",
+        "nb_observations"
+    ],
+    "specific": {
+        "visit_date_min": {
+            "type_widget": "date",
+            "attribut_label": "Date de la récolte",
+            "required": true
+        },
+        "observers_txt": {
+            "type_widget": "text",
+            "attribut_label": "Nom du récolteur",
+            "required": true,
+            "hidden": false
+        },
+        "observers": {
+            "required": false,
+            "hidden": true
+        }
+    }
+}

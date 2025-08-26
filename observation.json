@@ -1,0 +1,42 @@
+{
+    "display_properties": [
+        "cd_nom",
+        "effectif_males",
+        "effectif_femelles",
+        "determinateur",
+        "validateur_local",
+        "comments"
+    ],
+    "display_list": [
+        "cd_nom",
+        "effectif_total"
+    ],
+    "specific": {
+        "effectif_males": {
+            "type_widget": "number",
+            "attribut_label": "Nombre de mâles",
+            "required": true
+        },
+        "effectif_femelles": {
+            "type_widget": "number",
+            "attribut_label": "Nombre de femelles",
+            "required": true
+        },
+        "effectif_total": {
+            "type_widget": "number",
+            "attribut_label": "Effectif total",
+            "hidden": true
+        },
+        "determinateur": {
+            "type_widget": "text",
+            "attribut_label": "Déterminateur"
+        },
+        "validateur_local": {
+            "type_widget": "text",
+            "attribut_label": "Validateur local"
+        },
+        "comments": {
+            "attribute_label": "Commentaire"
+        }
+    }
+}
