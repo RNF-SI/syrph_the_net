@@ -43,7 +43,7 @@
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
-                "cd_typo": 7,
+                "cd_table": "TYPO_STN",
                 "search_name": "",
                 "limit": "999999"
             }
