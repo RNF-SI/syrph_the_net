@@ -5,6 +5,7 @@
     "label_list": "Tentes Malaise",
     "display_properties": [
         "base_site_name",
+        "base_site_code",
         "CodeHabitatPrincipal",
         "CodeHabitatSecondaire1",
         "CodeHabitatSecondaire2",
@@ -13,6 +14,7 @@
     ],
     "display_list": [
         "base_site_name",
+        "base_site_code",
         "last_visit",
         "nb_visits"
     ],
@@ -30,9 +32,10 @@
             "hidden": true
         },
         "base_site_name": {
-            "type_widget": "text",
-            "attribut_label": "Nom/code de la tente Malaise",
-            "required": true
+            "attribut_label": "Nom de la tente Malaise"
+        },
+        "base_site_code": {
+            "attribut_label": "Code de la tente Malaise"
         },
         "CodeHabitatPrincipal": {
             "type_widget": "datalist",
@@ -43,7 +46,7 @@
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
-                "cd_table": "TYPO_CORINE_BIOTOPES",
+                "cd_table": "TYPO_STN",
                 "search_name": "",
                 "limit": "999999"
             }
@@ -57,7 +60,7 @@
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
-                "cd_typo": 7,
+                "cd_table": "TYPO_STN",
                 "search_name": "",
                 "limit": "999999"
             }
@@ -71,7 +74,7 @@
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
-                "cd_typo": 7,
+                "cd_table": "TYPO_STN",
                 "search_name": "",
                 "limit": "999999"
             }
@@ -85,7 +88,7 @@
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
-                "cd_typo": 7,
+                "cd_table": "TYPO_STN",
                 "search_name": "",
                 "limit": "999999"
             }
@@ -99,10 +102,14 @@
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
-                "cd_typo": 7,
+                "cd_table": "TYPO_STN",
                 "search_name": "",
                 "limit": "999999"
             }
+        },
+        "id_inventor": {
+            "required": false,
+            "hidden": true
         }
     }
 }
