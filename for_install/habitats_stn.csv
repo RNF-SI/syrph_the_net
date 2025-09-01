@@ -1,0 +1,480 @@
+﻿lb_hab_fr;lb_code
+Clairière ou bords de piste à strate herbacée haute;211f
+Clairière ou bords de piste à courte strate herbacée;234f
+Rive de mare permanente sous la canopée;7462f
+Mare temporaire sous canopée;713f
+Source en forêt;731f
+Source en forêt;732f
+Résurgence en forêt;733f
+Petites zone ouverte en forêt avec résurgence;7331f
+Fossé de drainage en forêt;734f
+Fossé de drainage le long de piste en plantation;735f
+Ruisseau saisonnier en forêt;7332f
+Berges de ruisseau en forêt;7442f
+Berges de rivière en forêt;7441f
+Bouse de vache en forêt;7131f
+Affleurement rocheux en forêt;75f
+Fourrés d'Opuntia;76f
+Touffes d'asphodèles;77f
+MACROHABITATS FORESTIERS (gen.);1
+Forêts de feuillus (gén.);11
+Forêts de feuillus sèches (gén.);111
+Chênaie thermophile (gén.);1111
+sur-mature;11111
+mature;11112
+jeunes arbres;11113
+Quercus pubescens occidental;11114
+sur-mature;111141
+mature;111142
+jeunes arbres;111143
+Quercus pubescens occidental sur argile;111144
+sur-mature;1111441
+mature;1111442
+jeunes arbres;1111443
+Savane à Q. pubescens karstique;111145
+sur-mature;1111451
+mature;1111452
+jeunes arbres;1111453
+Chênaie thermophile des Balkans (gén.);11115
+sur-mature;111151
+mature;111152
+jeunes arbres;111153
+Chênaie/Ostriaie thermophile (gén.);11116
+sur-mature;111161
+mature;111162
+jeunes arbres;111163
+Quercus faginea espagnole (gén.);1112
+sur-mature;11121
+mature;11122
+jeunes arbres;11123
+Chataigneraie (gén.);1113
+sur-mature;11131
+mature;11132
+jeunes arbres;11133
+Tilion-platyphylli (gén.);1114
+sur-mature;11141
+mature;11142
+jeunes arbres;11143
+Forêts de feuillus humides/mésophiles (gén.) (gén.);112
+Hêtraie (gén.);1120
+sur-mature;11201
+mature;11202
+jeunes arbres;11203
+Hêtraie (Fagus) mésophile (gén.);11211
+sur-mature;112111
+mature;112112
+jeunes arbres;112113
+Hêtraie (Fagus) humide (gén.);11212
+sur-mature;112121
+mature;112122
+jeunes arbres;112123
+Quercus/Carpinus/Ulmus (gén.);1122
+sur-mature;11221
+mature;11222
+jeunes arbres;11223
+Chênaie acidophile (gén.);1123
+sur-mature;11231
+mature;11232
+jeunes arbres;11233
+Frênaie (gén.);1124
+sur-mature;11241
+mature;11242
+jeunes arbres;11243
+Bétulaie (gén.);1125
+sur-mature;11251
+mature;11252
+jeunes arbres;11253
+Aulnaie (gén.);1126
+sur-mature;11261
+mature;11262
+jeunes arbres;11263
+Quercus pyrenaica (gén.);1127
+sur-mature;11271
+mature;11272
+jeunes arbres;11273
+Frênaie riveraine méditerranéenne (gén.);1128
+sur-mature;11281
+mature;11282
+jeunes arbres;11283
+Forêt gallerie du rhithral Alnus/Fraxinus (gén.);1129
+sur-mature;11291
+mature;11292
+jeunes arbres;11293
+Lunario-Acerion (gén.);110
+sur-mature;1101
+mature;1102
+jeunes arbres;1103
+Forêt alluviale (gén.);113
+Salix alba/Populus (gén.);1131
+sur-mature;11311
+mature;11312
+jeunes arbres;11313
+Forêt galerie à Salix alba/Populus (gén.);11314
+sur-mature;113141
+mature;113142
+jeunes arbres;113143
+Forêt alluviale de bois dur (gén.);1132
+sur-mature;11321
+mature;11322
+jeunes arbres;11323
+Alnus glutinosa/Fraxinus excelsior (gén.);11324
+sur-mature;113241
+mature;113242
+jeunes arbres;113243
+Quercus/Ulmus/Fraxinus (gén.);11325
+sur-mature;113251
+mature;113252
+jeunes arbres;113253
+Zone d'expansion des crues de ruisseau (gén.);1133
+sur-mature;11331
+mature;11332
+jeunes arbres;11333
+Alnus incana (gén.);1134
+sur-mature;11341
+mature;11342
+jeunes arbres;11343
+Platanus orientalis riverain (gén.);114
+Plantation de feuillus (gén.);12
+Fraxinus;121
+Populus (gén.);122
+inondée;1221
+non inondée;1222
+Salix (gén.);123
+inondée;1231
+non inondée;1232
+Bois humide (gén.);13
+Forêt marécageuse à Betula/Pinus (gén.);131
+sur-mature;1311
+mature;1312
+jeunes arbres;1313
+Aulnaie marécageuse (gén.);132
+sur-mature;1321
+mature;1322
+jeunes arbres;1323
+Saulaie tourbeuse (gén.);133
+sur-mature;1331
+mature;1332
+jeunes arbres;1333
+Forêt sempervirente;15
+Quercus ilex (gén.);151
+sur-mature;1511
+mature;1512
+jeunes arbres;1513
+Quercus suber (gén.);152
+sur-mature;1521
+mature;1522
+jeunes arbres;1523
+Forêt de Quercus rotundifolia (gén.);153
+sur-mature;1531
+mature;1532
+jeunes arbres;1533
+Forêt de lauriers (gén.);155
+Forêt de lauriers de Madère (gén.);1551
+Broussailles/fourrés (gén.);16
+fourrés atlantiques (gén.);161
+Fourrés d'ajoncs;1612
+Fourrés de noisetiers;1613
+Fourrés Cytisus;1614
+broussailles/fourrés secs;162
+Matorral (gén.);163
+feuillus sempervirents;1631
+Pinus;1632
+Maquis (gén.);164
+Maquis haut;1641
+Maquis bas;1642
+Est-méditerranéen;1643
+Formations arbustives méditerranéennes;165
+Garrigue;166
+fourrés subalpins (gén.);167
+Fourrés à Alnus;1671
+Fourrés à Pinus;1672
+Forêts de conifères (gén.);17
+Sapinière (gén.);1710
+sur-mature;17101
+mature;17102
+jeunes arbres;17103
+Pessière (gén.);1711
+sur-mature;17111
+mature;17112
+jeunes arbres;17113
+Pessière acidophile (gén.);1712
+sur-mature;17121
+mature;17122
+jeunes arbres;17123
+Pessière mésophile/calciphile (gén.);1713
+sur-mature;17131
+mature;17132
+jeunes arbres;17133
+Forêt de pins méditerranéenne (gén.);176
+sur-mature;1761
+mature;1762
+jeunes arbres;1763
+Pins noirs (gén.);177
+Forêt de pins de Salzmann (gén.);1771
+sur-mature;17711
+mature;17712
+jeunes arbres;17713
+forêt de Pinus halepensis (gén.);178
+forêt de Pinus brutia (gén.);1781
+forêt de Pinus sylvestris (gén.);1720
+sur-mature;17201
+mature;17202
+jeunes arbres;17203
+Pinède sèche Pinus sylvestris (gén.);1721
+sur-mature;17211
+mature;17212
+jeunes arbres;17213
+Pinède humide Pinus sylvestris (gén.);1722
+sur-mature;17221
+mature;17222
+jeunes arbres;17223
+Molinio-Pinion (gén.);1723
+sur-mature;17231
+mature;17232
+jeunes arbres;17233
+Ononido-pinion (gén.);1724
+sur-mature;17241
+mature;17242
+jeunes arbres;17243
+Forêt écossaise;1725
+sur-mature;17251
+mature;17252
+jeunes arbres;17253
+Pinède montagnarde (gén.);175
+sur-mature;1751
+mature;1752
+jeunes arbres;1753
+Pinède montagnarde non calcaire (gén.);1754
+sur-mature;17541
+mature;17542
+jeunes arbres;17543
+Savane de pins karstiques de montagne (gén.);1755
+sur-mature;17551
+mature;17552
+jeunes arbres;17553
+Larix/Pinus cembra (gén.);173
+sur-mature;1731
+mature;1732
+jeunes arbres;1733
+Taiga occidentale;174
+sur-mature;1741
+mature;1742
+jeunes arbres;1743
+Plantation de conifères (gén.);18
+Abies/Larix/Picea;181
+mature;1811
+jeunes arbres;1812
+Pinus sylvestris;182
+mature;1821
+jeunes arbres;1822
+Arbres épars en milieu ouvert (gén.);19
+feuillus (gén.);190
+sur-mature;1901
+mature;1902
+Hêtres;1911
+sur-mature;19111
+mature;19112
+Chênes;1912
+sur-mature;19121
+mature;19122
+Frênes;1913
+sur-mature;19131
+mature;19132
+Autres bois durs;1914
+sur-mature;19141
+mature;19142
+Peupliers;1915
+sur-mature;19151
+mature;19152
+Saules;1916
+sur-mature;19161
+mature;19162
+Conifères;192
+sur-mature;1921
+mature;1922
+Berges de ruisseau/rivières en milieux ouverts;7442o
+Source en milieux ouverts;731o
+Source en milieux ouverts;732o
+Résurgence en milieux ouverts;733o
+Ruisseau saisonnier en milieux ouverts;7332o
+Fossé de drainage en milieux ouverts;734o
+Mare temporaire en milieux ouverts;713o
+Mare permanente en milieux ouverts;712o
+Berges de mare permanente en milieux ouverts;7462o
+Bouses de vache en milieux ouverts;7131o
+Mare et berges de mare avec bouses de vache en milieux ouverts;71311o
+Affleurement rocheux en milieux ouverts;75o
+Fourrés d’Opuntia;76o
+Touffes d'asphodèles;77o
+Banquette de Rumex alpinus;78o
+MACROHABITATS DE MILIEUX OUVERTS (gén.);2
+Communautés d’herbes hautes (gén.);21
+de plaine;211
+Montagnarde/subalpine;212
+Lisière des forêts thermophiles;22
+Prairie/pelouse (gén.);23
+Prairie/pelouse non améliorée (gén.);231
+Prairie/pelouse non améliorée de plaine (gén.);2311
+Xérique/semi-aride (gén.);23111
+ouverte;231111
+fermée;231112
+Très sèche;23115
+acidophile;231151
+calcaire;231152
+Sèche (général);23112
+acidophile;231121
+calcaire;231122
+Humide (gén.);23113
+eutrophe/mesotrophe;231131
+oligotrophe;231132
+Alluviale;23114
+Prairie/pelouse steppique;23116
+Prairie/pelouse non améliorée de montagne (gén.);2312
+acidophile;23121
+calcaire;23122
+Prairie/ pelouse non améliorée subalpines/alpines (gén.);2313
+acidophile;23131
+calcaire;23132
+Prairie/ pelouse améliorée (gén.);232
+Prairie/ pelouse améliorée de plaine (gén.);2321
+Légèrement pâturée;23211
+Lourdement pâturée;23212
+bovins;232121
+ovins;232122
+foin;23213
+Prairie/ pelouse améliorée de montagne;2322
+Prairie intensive;233
+Lande tourbeuse;24
+Lande à bruyères;25
+de plaine;251
+subalpine;252
+méditerranéenne;253
+Lande épineuse;254
+Phrygana de la mer Égée;26
+Plages et dunes côtières (gén.);27
+Plage côtière (gén.);271
+galets;2711
+Dunes côtières (gén.);272
+Dune à ammophile;2721
+Dune grise/broussaille dunaire;2722
+Machair;2723
+dépression humide intradunale;2724
+Dune de sable non littorale;273
+Moraine et éboulis (gén.);28
+calcaires;281
+non calcaires;282
+Toundra (gén.);29
+DEHESA (gén.);4
+Quercus rotundifolia/Q. suber dehesa (gén.);41
+Berge de ruisseau;7442c
+Ruisseau saisonnier;7332c
+Fossé de drainage;734c
+Berge de mare permanente;7462c
+Banquette Allium;791c
+Banquette Artemisia;792c
+Banquette Narcissus;793c
+MACROHABITATS DES ZONES CULTIVÉES (gén.);5
+Milieux ruraux (général);501
+Grandes cultures (gén.);51
+Céréales;511
+Maïs;5111
+Jachère;515
+Vergers;52
+Verger d'amandiers;521
+Verger d’oliviers (bio);522
+Vignoble (général);53
+Bord de champ/ourlet herbeux de haie (gén.);54
+Bord de champ permanent;541
+Nouveau bord de champ;542
+Haie;543
+Haie et bords de champ;544
+Vieux mur de bord de champ;545
+Déchets organiques de ferme;57
+Milieux urbains (général);502
+Parcs urbains (gén.);55
+Pelouse;551
+Prairies fleuries (gén);558
+prairie fleurie fauchée;5581
+prairie fleurie en partie fauchée;5582
+Parterres de fleur (gén.);552
+saisonniers;5521
+semi-permanents.;5522
+rocaille;5523
+arbustes/haie;553
+Arbre de sous étage;554
+Arbre de la canopées (gén.);555
+Arbres de haut jet matures (gén);5551
+feuillus (gén);55511
+Picea;55512
+Pinus sylvestris;55513
+Arbres de haut-jet surmatures (gén);5552
+Fagus;55521
+Fraxinus;55522
+Populus nigra;55523
+Quercus;55524
+Pièces d'eau (gén.);556
+végétalisées;5561
+non végétalisées;5562
+Jardin (gén.);56
+Jardin ornemental (gén);561
+mare de jardin;5611
+Jardin potager/jardins collectifs;562
+carré potager;5621
+arbustes à baies;5622
+Arbres fruitiers (gén.);563
+mature;5631
+sur-mature;5632
+Tas de compost;58
+Haie de biodiversité;59
+Berge de ruisseau en zone humide;7442w
+Source en zone humide;731w
+Source en zone humide;732w
+Résurgence en zone humides;733w
+Fossé de drainage en zone humide;734w
+Mare permanente en zone humide;712w
+Berge de mare permanente en zone humide;7462w
+MACROHABITATS DES ZONES HUMIDES (gén.);6
+Bas-marais (gén.);61
+bas-marais alcalin/;611
+bas-marais acide;612
+Saulaies marécageuses;613
+Marais montagnards/subalpins;614
+Tourbière de transition;62
+Tourbière (gén.);63
+Tourbière haute;631
+Tourbière de couverture;632
+Tourbière exploitée;633
+Tourbière aapa;634
+Tourbière palsa;635
+Roselière/magnocariçaie (gén.);64
+Roselière;641
+grands carex;642
+Formations de cannes;643
+Marais plat;65
+MACROHABITATS SAUMATRES (gén.);67
+Lagon;672
+Marais salé (gén.);673
+Prairie à Spartine;6732
+Pré salé atlantique;6733
+pré salé continental;6734
+MACROHABITATS D'EAU DOUCE (gén.);7
+Stagnante (gén.);71
+Mare permanente;712
+Mare temporaire;713
+Courante (gén.);72
+Rivière (gén.);721
+Ruisseau;722
+Ruisseau saisonnier;723
+Sources/résurgences (gén.);73
+rhéocrène;731
+limnocrène;732
+hélocrène;733
+Berges (gén.);74
+Berge d'eau courante, (gén.);744
+Berge de rivière (gen,);7441
+sableuse /graveleuse;74412
+Berge de ruisseau;7442
+berge de canal;7443
+Berge d'eau stagnante (gén.);746
+Berge de lac;7461
+Berge de mare permanente;7462
