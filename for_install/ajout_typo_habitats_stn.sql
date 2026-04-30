@@ -141,6 +141,18 @@ ON CONFLICT (cd_hab) DO NOTHING
 
 DROP TABLE IF EXISTS ref_habitats._hab_import;
 
+-- Repeuplement de l'autocomplétion des habitats
+DELETE FROM ref_habitats.autocomplete_habitat;
+INSERT INTO ref_habitats.autocomplete_habitat
+SELECT
+  cd_hab,
+  h.cd_typo,
+  lb_code,
+  lb_nom_typo,
+  concat(lb_code, ' - ', lb_hab_fr, ' ', lb_hab_fr_complet)
+FROM ref_habitats.habref h
+JOIN ref_habitats.typoref t ON t.cd_typo = h.cd_typo;
+
 COMMIT;
 
 -- =========================================================

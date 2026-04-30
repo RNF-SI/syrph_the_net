@@ -32,10 +32,11 @@
             "hidden": true
         },
         "base_site_name": {
-            "attribut_label": "Nom de la tente Malaise"
+            "attribut_label": "Nom/code de la tente Malaise"
         },
         "base_site_code": {
-            "attribut_label": "Code de la tente Malaise"
+            "required": false,
+            "hidden": true
         },
         "CodeHabitatPrincipal": {
             "type_widget": "datalist",
