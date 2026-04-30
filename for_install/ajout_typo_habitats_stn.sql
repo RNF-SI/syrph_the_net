@@ -59,7 +59,7 @@ DELETE FROM ref_habitats._hab_import WHERE lb_code IS NULL OR btrim(lb_code) = '
 UPDATE ref_habitats._hab_import SET lb_code = btrim(lb_code), lb_hab_fr = nullif(btrim(lb_hab_fr), '');
 
 -- ------------ Attribution des IDs et calcul des relations ------------
-WITH max_exist AS (
+WITH RECURSIVE max_exist AS (
   SELECT COALESCE(MAX(cd_hab), 0) AS base FROM ref_habitats.habref
 ),
 imported AS (
@@ -89,7 +89,7 @@ roots AS (
   LEFT JOIN nodes p ON p.lb_code = n.parent_code
   WHERE n.parent_code IS NULL OR p.lb_code IS NULL
 ),
-RECURSIVE tree AS (
+tree AS (
   SELECT 
     rt.lb_code,
     rt.cd_hab,
