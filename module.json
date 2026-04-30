@@ -1,4 +1,11 @@
 {
     "module_label": "Syrph The Net",
-    "module_desc": "Module de bancarisation des données du protocole Syrph The Net"
+    "module_desc": "Module de bancarisation des données du protocole Syrph The Net",
+    "specific": {
+        "cd_typo_habref": {
+            "type_widget": "number",
+            "attribut_label": "CD typo HabRef (STN)",
+            "required": true
+        }
+    }
 }

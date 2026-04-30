@@ -47,7 +47,7 @@
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
-                "cd_typo": 2,
+                "cd_typo": "__MODULE.CD_TYPO_HABREF",
                 "search_name": "",
                 "limit": "999999"
             }
@@ -61,7 +61,7 @@
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
-                "cd_typo": 2,
+                "cd_typo": "__MODULE.CD_TYPO_HABREF",
                 "search_name": "",
                 "limit": "999999"
             }
@@ -75,7 +75,7 @@
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
-                "cd_typo": 2,
+                "cd_typo": "__MODULE.CD_TYPO_HABREF",
                 "search_name": "",
                 "limit": "999999"
             }
@@ -89,7 +89,7 @@
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
-                "cd_typo": 2,
+                "cd_typo": "__MODULE.CD_TYPO_HABREF",
                 "search_name": "",
                 "limit": "999999"
             }
@@ -103,7 +103,7 @@
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
-                "cd_typo": 2,
+                "cd_typo": "__MODULE.CD_TYPO_HABREF",
                 "search_name": "",
                 "limit": "999999"
             }
