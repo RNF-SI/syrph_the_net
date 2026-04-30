@@ -20,11 +20,9 @@
     ],
     "specific": {
         "id_nomenclature_type_site": {
-            "type_widget": "nomenclature",
+            "type_widget": "text",
             "attribut_label": "Type site",
-            "code_nomenclature_type": "TYPE_SITE",
             "type_util": "nomenclature",
-            "required": true,
             "value": {
                 "code_nomenclature_type": "TYPE_SITE",
                 "cd_nomenclature": "tente_malaise"
