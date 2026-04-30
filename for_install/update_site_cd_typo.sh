@@ -2,12 +2,13 @@
 set -euo pipefail
 
 if [[ $# -lt 1 ]]; then
-  echo "Usage: $0 <db_name> [db_user]"
+  echo "Usage: $0 <db_name> [db_user] [cd_typo]"
   exit 1
 fi
 
 DB_NAME="$1"
 DB_USER="${2:-postgres}"
+CD_TYPO_INPUT="${3:-}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SITE_TEMPLATE_JSON="${SCRIPT_DIR}/../site.json.template"
 SITE_JSON="${SCRIPT_DIR}/../site.json"
@@ -17,8 +18,12 @@ if [[ ! -f "${SITE_TEMPLATE_JSON}" ]]; then
   exit 1
 fi
 
-CD_TYPO="$(psql -X -q -t -A -U "${DB_USER}" -d "${DB_NAME}" -c "SELECT cd_typo FROM ref_habitats.typoref WHERE cd_table = 'TYPO_STN' LIMIT 1;")"
-CD_TYPO="$(echo "${CD_TYPO}" | tr -d '[:space:]')"
+if [[ -n "${CD_TYPO_INPUT}" ]]; then
+  CD_TYPO="${CD_TYPO_INPUT}"
+else
+  CD_TYPO="$(psql -X -q -t -A -U "${DB_USER}" -d "${DB_NAME}" -c "SELECT cd_typo FROM ref_habitats.typoref WHERE cd_table = 'TYPO_STN' LIMIT 1;")"
+  CD_TYPO="$(echo "${CD_TYPO}" | tr -d '[:space:]')"
+fi
 
 if [[ -z "${CD_TYPO}" ]]; then
   echo "Erreur: aucun cd_typo trouve pour cd_table='TYPO_STN'"
