@@ -31,18 +31,6 @@ END$$;
 
 BEGIN;
 
--- ---------- Paramètres dynamiques depuis typoref ----------
-WITH params AS (
-  SELECT 
-    t.cd_typo::int                           AS cd_typo,        -- récupéré automatiquement
-    'Valide'::varchar(20)                    AS fg_validite,
-    NULL::varchar(500)                       AS lb_auteur,
-    'FR'::varchar(5)                         AS france
-  FROM ref_habitats.typoref t
-  WHERE t.cd_table = 'TYPO_STN'
-)
-SELECT 1;
-
 -- ---------- Table de staging ----------
 DROP TABLE IF EXISTS ref_habitats._hab_import;
 
@@ -59,7 +47,16 @@ DELETE FROM ref_habitats._hab_import WHERE lb_code IS NULL OR btrim(lb_code) = '
 UPDATE ref_habitats._hab_import SET lb_code = btrim(lb_code), lb_hab_fr = nullif(btrim(lb_hab_fr), '');
 
 -- ------------ Attribution des IDs et calcul des relations ------------
-WITH RECURSIVE max_exist AS (
+WITH RECURSIVE params AS (
+  SELECT
+    t.cd_typo::int        AS cd_typo,        -- récupéré automatiquement
+    'Valide'::varchar(20) AS fg_validite,
+    NULL::varchar(500)    AS lb_auteur,
+    'FR'::varchar(5)      AS france
+  FROM ref_habitats.typoref t
+  WHERE t.cd_table = 'TYPO_STN'
+),
+max_exist AS (
   SELECT COALESCE(MAX(cd_hab), 0) AS base FROM ref_habitats.habref
 ),
 imported AS (
