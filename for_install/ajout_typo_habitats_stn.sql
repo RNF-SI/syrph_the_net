@@ -7,6 +7,13 @@
 
 \set ON_ERROR_STOP on
 
+-- Sécurise l'auto-incrément de cd_typo si la séquence est désynchronisée
+SELECT setval(
+  pg_get_serial_sequence('ref_habitats.typoref', 'cd_typo'),
+  COALESCE((SELECT MAX(cd_typo) FROM ref_habitats.typoref), 0),
+  true
+);
+
 -- Création de typologie dans typoref si elle n'existe pas encore :
 INSERT INTO ref_habitats.typoref (cd_table,lb_nom_typo,nom_jeu_donnees,date_creation,date_mise_jour_metadonnees,auteur_typo,auteur_table,territoire,organisme,langue,presentation,description,origine,ref_biblio,mots_cles,diffusion,type_table)
 SELECT 'TYPO_STN','Typologie Syrph The Net','Typologie des habitats spécifique au protocole Syrph The Net','26/08/2025','26/08/2025','Speight M. C. D., Castella E. & Sarthou V. (2015).','Zacharie Moulin (Réserves Naturelles de France)','France métropolitaine','Réserves Naturelles de France','FR','La typologie d’habitats de StN est différente de la typologie CORINE biotopes et de la phytosociologie (Speight, 2017a), les découpages ne correspondant pas à l’utilisation des habitats par les syrphes ou ne couvrant pas totalement la zone géographique de la base de données. La méthode Syrph the Net se base sur une typologie adaptée. Cette dernière est présentée et définie, ainsi que les correspondances vers les typologies CORINE biotopes, EUNIS et phytosociologique sigmatiste, dans le volume StN « Content and Glossary » (Speight et al., 2016) et sa traduction française « Contenu et Glossaire » (Speight et al., 2015). La typologie StN définit deux catégories d’habitats : les « macrohabitats », correspondant aux habitats en tant que communautés végétales comme dans les typologies CORINE biotopes ou phytosociologique ; les habitats supplémentaires, regroupant les éléments ponctuels ou linéaires comme les habitats aquatiques (sources, mares, cours d’eau), les chemins, les clairières. Ces habitats supplémentaires sont liés aux macro-habitats dans le relevé des habitats. Les habitats supplémentaires viennent affiner la description du site permettant de compléter la liste des espèces prédites. Par exemple, une forêt avec des clairières herbeuses abritera théoriquement plus d’espèces qu’une même forêt dépourvue de ces clairières.','Table présentant les informations de base de la typologie spécifique Syrph the Net','Fichier de Cédric Vanappelghem','Speight M. C. D., Castella E. & Sarthou V. (2015). Base de Données StN: Contenu et Glossaire des termes 2015. Syrph the Net, the database of European Syrphidae, Vol.82, 99 pp, Syrph the Net publications, Dublin.','Typologie, habitats, Syrphes, StN','true','TYPO'
@@ -45,8 +52,7 @@ CREATE TABLE ref_habitats._hab_import (
 );
 
 -- ----------- CHARGEMENT CSV (côté client psql) -----------
-\copy ref_habitats._hab_import (lb_hab_fr, lb_code)
-FROM './habitats_stn.csv' WITH (FORMAT csv, HEADER true, QUOTE '"', DELIMITER ';', ENCODING 'UTF8');
+\copy ref_habitats._hab_import (lb_hab_fr, lb_code) FROM './habitats_stn.csv' WITH CSV HEADER DELIMITER ';' QUOTE '"';
 
 -- ------------ Nettoyage / normalisation ------------
 DELETE FROM ref_habitats._hab_import WHERE lb_code IS NULL OR btrim(lb_code) = '';
