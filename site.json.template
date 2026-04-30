@@ -41,12 +41,13 @@
         "CodeHabitatPrincipal": {
             "type_widget": "datalist",
             "attribut_label": "Type d’habitat principal autour de la tente Malaise",
-            "api": "habref/habitats/autocomplete?cd_typo=__MODULE.CD_TYPO_HABREF",
+            "api": "habref/habitats/autocomplete",
             "application": "GeoNature",
             "keyValue": "cd_hab",
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
+                "cd_typo": 2,
                 "search_name": "",
                 "limit": "999999"
             }
@@ -54,12 +55,13 @@
         "CodeHabitatSecondaire1": {
             "type_widget": "datalist",
             "attribut_label": "Type d’habitat secondaire autour de la tente Malaise",
-            "api": "habref/habitats/autocomplete?cd_typo=__MODULE.CD_TYPO_HABREF",
+            "api": "habref/habitats/autocomplete",
             "application": "GeoNature",
             "keyValue": "cd_hab",
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
+                "cd_typo": 2,
                 "search_name": "",
                 "limit": "999999"
             }
@@ -67,12 +69,13 @@
         "CodeHabitatSecondaire2": {
             "type_widget": "datalist",
             "attribut_label": "Type d’habitat secondaire autour de la tente Malaise",
-            "api": "habref/habitats/autocomplete?cd_typo=__MODULE.CD_TYPO_HABREF",
+            "api": "habref/habitats/autocomplete",
             "application": "GeoNature",
             "keyValue": "cd_hab",
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
+                "cd_typo": 2,
                 "search_name": "",
                 "limit": "999999"
             }
@@ -80,12 +83,13 @@
         "CodeHabitatSecondaire3": {
             "type_widget": "datalist",
             "attribut_label": "Type d’habitat secondaire autour de la tente Malaise",
-            "api": "habref/habitats/autocomplete?cd_typo=__MODULE.CD_TYPO_HABREF",
+            "api": "habref/habitats/autocomplete",
             "application": "GeoNature",
             "keyValue": "cd_hab",
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
+                "cd_typo": 2,
                 "search_name": "",
                 "limit": "999999"
             }
@@ -93,12 +97,13 @@
         "CodeHabitatSecondaire4": {
             "type_widget": "datalist",
             "attribut_label": "Type d’habitat secondaire autour de la tente Malaise",
-            "api": "habref/habitats/autocomplete?cd_typo=__MODULE.CD_TYPO_HABREF",
+            "api": "habref/habitats/autocomplete",
             "application": "GeoNature",
             "keyValue": "cd_hab",
             "keyLabel": "search_name",
             "type_util": "habitat",
             "params": {
+                "cd_typo": 2,
                 "search_name": "",
                 "limit": "999999"
             }
