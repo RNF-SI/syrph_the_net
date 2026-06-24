@@ -55,7 +55,7 @@ SELECT
     -- Autres champs standard synthese
     v.uuid_base_visit AS unique_id_sinp_grp,
     source.id_source,
-    v.id_module,
+    v.id_module AS id_module,
     v.id_dataset,
     v.id_digitiser,
     ref_nomenclatures.get_id_nomenclature('NAT_OBJ_GEO', 'St') AS id_nomenclature_geo_object_nature,
