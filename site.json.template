@@ -19,6 +19,17 @@
         "nb_visits"
     ],
     "specific": {
+        "nb_visits": {
+            "hidden": true
+        },
+        "altitude_min": { 
+            "required": false,
+            "hidden": true
+        },
+        "altitude_max": {
+            "required": false,
+            "hidden": true
+        },
         "id_nomenclature_type_site": {
             "type_widget": "text",
             "attribut_label": "Type site",
