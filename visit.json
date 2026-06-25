@@ -13,6 +13,9 @@
         "nb_observations"
     ],
     "specific": {
+        "nb_observations": {
+            "hidden": true
+        },
         "visit_date_min": {
             "type_widget": "date",
             "attribut_label": "Date de la récolte",
